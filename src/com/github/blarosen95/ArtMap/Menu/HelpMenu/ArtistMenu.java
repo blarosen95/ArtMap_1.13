@@ -65,7 +65,7 @@ public class ArtistMenu extends ListMenu implements ChildMenu {
         final UUID artist;
 
         public ArtworkListButton(OfflinePlayer artist) {
-            super(Material.SKULL_ITEM);
+            super(Material.LEGACY_SKULL_ITEM);
             OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(artist.getUniqueId());
 
             setDurability((short) 3);

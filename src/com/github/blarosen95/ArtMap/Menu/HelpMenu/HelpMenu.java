@@ -25,9 +25,9 @@ public class HelpMenu extends BasicMenu {
         MenuHandler.MenuList list = ArtMap.getMenuHandler().MENU;
         return new Button[]{
                 new StaticButton(SIGN, Lang.Array.HELP_GETTING_STARTED.get()),
-                new LinkedButton(list.RECIPE, WORKBENCH, Lang.Array.HELP_RECIPES.get()),
-                new LinkedButton(list.DYES, INK_SACK, 1, Lang.Array.HELP_DYES.get()),
-                new LinkedButton(list.TOOLS, BOOK_AND_QUILL, Lang.Array.HELP_TOOLS.get()),
+                new LinkedButton(list.RECIPE, LEGACY_WORKBENCH, Lang.Array.HELP_RECIPES.get()),
+                new LinkedButton(list.DYES, INK_SAC, 1, Lang.Array.HELP_DYES.get()),
+                new LinkedButton(list.TOOLS, LEGACY_BOOK_AND_QUILL, Lang.Array.HELP_TOOLS.get()),
                 new LinkedButton(list.ARTIST, PAINTING, Lang.Array.HELP_LIST.get())
         };
     }

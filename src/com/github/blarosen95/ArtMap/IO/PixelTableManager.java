@@ -1,7 +1,6 @@
 package com.github.blarosen95.ArtMap.IO;
-
-import com.github.blarosen95.DataTables.DataTables;
-import com.github.blarosen95.DataTables.PixelTable;
+import main.java.me.Fupery.DataTables.DataTables;
+import main.java.me.Fupery.DataTables.PixelTable;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class PixelTableManager {

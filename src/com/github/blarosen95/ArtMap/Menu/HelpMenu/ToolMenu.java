@@ -28,7 +28,7 @@ public class ToolMenu extends BasicMenu implements ChildMenu {
     public Button[] getButtons() {
         return new Button[]{
                 new StaticButton(Material.SIGN, Lang.Array.INFO_TOOLS.get()),
-                new LinkedButton(ArtMap.getMenuHandler().MENU.DYES, Material.INK_SACK, 1, Lang.Array.TOOL_DYE.get()),
+                new LinkedButton(ArtMap.getMenuHandler().MENU.DYES, Material.INK_SAC, 1, Lang.Array.TOOL_DYE.get()),
                 new StaticButton(Material.BUCKET, Lang.Array.TOOL_PAINTBUCKET.get()),
                 new StaticButton(Material.COAL, Lang.Array.TOOL_COAL.get()),
                 new StaticButton(Material.FEATHER, Lang.Array.TOOL_FEATHER.get()),
