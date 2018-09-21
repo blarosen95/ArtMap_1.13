@@ -17,7 +17,7 @@ public class CompatibilityManager implements RegionHandler {
 
     public CompatibilityManager(JavaPlugin plugin) {
         regionHandlers = new ArrayList<>();
-        loadRegionHandler(WorldGuardCompat.class);
+//        loadRegionHandler(WorldGuardCompat.class);
         loadRegionHandler(GriefPreventionCompat.class);
         //loadRegionHandler(FactionsCompat.class);
         //loadRegionHandler(RedProtectCompat.class);
